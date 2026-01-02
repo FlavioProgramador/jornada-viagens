@@ -1,0 +1,36 @@
+.card {
+  color: var(--background-secondary-color);
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  background-color: black;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.card header {
+  display: block;
+  background-color: transparent;
+  position: static;
+}
+
+.card header p {
+  font-style: var(--text-weight);
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Montserrat";
+}
+
+.card section h3 {
+  font-size: 40px;
+  font-style: var(--title-weight);
+  margin-top: 8px 0 0;
+}
+
+.card section span {
+    display: inline-block;
+  font-size: 32px;
+  font-style: var(--title-weight);
+  margin-top: 24px;
+}

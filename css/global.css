@@ -55,9 +55,10 @@ body {
   width: 180px;
   height: 4px;
   background-color: var(--primary-color);
-  border-style: none;
-  margin: 16px auto 0;
+  border: none;
+  margin: 16px auto 32px;
 }
+
 
 @media screen and (min-width: 768px) {
   .section-title h2 {
