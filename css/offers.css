@@ -38,3 +38,18 @@
   font-style: var(--title-weight);
   margin-top: 24px;
 }
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+
+  .card section h3 {
+    font-size: 48px;
+  }
+
+  .card section span {
+    font-size: 40px;
+  }
+}
