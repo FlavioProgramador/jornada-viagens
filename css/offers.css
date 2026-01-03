@@ -7,12 +7,14 @@
   background-color: black;
   border-radius: 16px;
   text-align: center;
+  align-items: center;
 }
 
 .card header {
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
 }
 
 .card header p {
@@ -20,16 +22,18 @@
   font-size: 20px;
   line-height: 32px;
   font-family: "Montserrat";
+  letter-spacing: 1px;
 }
 
 .card section h3 {
   font-size: 40px;
   font-style: var(--title-weight);
-  margin-top: 8px 0 0;
+  margin: 16px 0 0;
+  line-height: 1.2;
 }
 
 .card section span {
-    display: inline-block;
+  display: inline-block;
   font-size: 32px;
   font-style: var(--title-weight);
   margin-top: 24px;
