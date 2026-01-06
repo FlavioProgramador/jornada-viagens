@@ -94,9 +94,6 @@
   }
 
   .destinations h4 {
-    font-size: 28px;
-    font-weight: var(--title-weight);
-    font-family: "Montserrat";
     margin: 24px 0 8px;
     text-align: left;
   }

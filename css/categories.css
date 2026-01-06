@@ -16,9 +16,6 @@
     align-items: center;
     color: var(--background-tertiary-color);
     text-decoration: none;
-    font-family: "Montserrat";
-    font-weight: var(--title-weight);
-    font-size: 28px;
 }
 
 .categories .section-title {
