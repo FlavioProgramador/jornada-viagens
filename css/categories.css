@@ -1,66 +1,62 @@
 .categories-cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 65px;
 }
 
 .categories-cards .card {
-    width: 312px;
-    height: 280px;
-    background-color: var(--background-secondary-color);
-    border-radius: 16px;
-    box-sizing: border-box;
-    padding: 41px 16px;
-    align-items: center;
-    color: var(--background-tertiary-color);
-    text-decoration: none;
+  width: 280px;
+  height: 255px;
+  background-color: var(--background-secondary-color);
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 41px 16px;
+  align-items: center;
+  color: var(--background-tertiary-color);
+  text-decoration: none;
 }
 
 .categories .section-title {
-    margin-top: 64px;
+  margin-top: 64px;
 }
 
 @media screen and (min-width: 768px) {
-    .categories-cards {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  .categories-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-    .categories-cards {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        max-width: 700px;
-        margin: 65px auto 0;
-        gap: 24px;
-        
-    }
+  .categories-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 700px;
+    margin: 65px auto 0;
+    gap: 24px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .categories-cards {
-        max-width: none;
-        flex-wrap: nowrap;
-        justify-content: center;
-        gap: 24px;
-    }
+  .categories-cards {
+    max-width: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 24px;
+  }
 }
 
 @media screen and (min-width: 2560px) {
-    .categories-cards {
-        max-width: none;
-        flex-wrap: nowrap;
-        justify-content: center;
-        gap: 24px;
-    }
+  .categories-cards {
+    max-width: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 24px;
+  }
 }
-
-
-
