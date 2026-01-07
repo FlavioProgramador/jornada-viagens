@@ -1,0 +1,128 @@
+.payments {
+  box-sizing: border-box;
+  padding: 0 32px;
+}
+
+.payments .image-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 24px;
+  height: 460px;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
+.payments .section-title h2 {
+  font-size: 32px;
+}
+
+.payments .section-title span {
+  font-size: 32px;
+  display: block;
+}
+
+.payments .image-gallery .first {
+  background: url("../img/gallery1-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.payments .image-gallery .second {
+  background: url("../img/gallery2-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+.payments .image-gallery .thirdy {
+  background: url("../img/gallery3-mobile.jpg") no-repeat center;
+  background-size: cover;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.payments .image-gallery .colspan-2 {
+  grid-column: span 2;
+}
+
+.payments .content .content-title {
+  padding: 0 24px;
+}
+
+.payments .content .content-text {
+  box-sizing: border-box;
+  padding: 0 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .image-gallery .first {
+    background: url("../img/gallery1-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-gallery .second {
+    background: url("../img/gallery2-tablet.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-gallery .thirdy {
+    background: url("../img/gallery3-tablet.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .payments .image-gallery .colspan-2 {
+    grid-column: span 2;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .image-gallery .first {
+    background: url("../img/gallery1-desktop.jpg") no-repeat;
+    background-size: cover;
+    width: 385.5px;
+    height: 254px;
+  }
+
+  .payments .image-gallery .second {
+    background: url("../img/gallery2-desktop.jpg") no-repeat;
+    background-size: cover;
+    width: 385.5px;
+    height: 254px;
+  }
+
+  .payments .image-gallery .thirdy {
+    background: url("../img/gallery3-desktop.jpg") no-repeat center;
+    background-size: cover;
+    width: 790px;
+    height: 182px;
+  }
+
+  .payments {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0 auto 104px;
+    max-width: 900px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+  }
+
+  .payments .content {
+    width: 384px;
+    align-self: start;
+  }
+
+  .payments .section-title {
+    grid-column: span 2;
+  }
+
+  .payments .section-title h2 {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    white-space: nowrap;
+  }
+
+  .payments .section-title h2 span {
+    display: inline;
+  }
+}
