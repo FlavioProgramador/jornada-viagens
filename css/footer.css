@@ -21,16 +21,17 @@
 
 .site-footer-left img {
   width: 140px;
+  margin-bottom: 16px;
 }
 
 .site-footer-left p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 22px;
-  color: #ccc;
+  color: var(--text-secondary-color);
 }
 
 .site-footer-right p {
-  color: #ccc;
+  color: var(--text-secondary-color);
   margin-bottom: 16px;
 }
 
